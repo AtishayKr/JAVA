@@ -1,0 +1,8 @@
+Enpasulation => binding data nad function in a single unit, also hides unnecessary details 
+    from outside world by the help of access specifier (Public private protected)
+
+    public => members or data declared as public are accessable from any part of the programing / code
+    private => member or data declared as private are only accessable from same calss in which method 
+        or data is declared
+    protected => members or data declared as private are only accessable within same calss or drived calss
+    

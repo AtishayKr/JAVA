@@ -1,0 +1,51 @@
+=> JAVA Collection Framework 
+-> The Java collections framework provides various interfaces. 
+    These interfaces include several methods to perform different operations on collections.
+
+=> Java Collection interface
+-> The Collection interface is the root interface of the collections framework hierarchy.
+-> Java does not provide direct implementations of the Collection interface but provides implementations 
+    of its subinterfaces like List, Set and Queue, 
+    Collection -> List , Set , Queue
+        List -> ArrayList , LikedList , Stack, Vector
+        Set -> SortedSet
+        Queue -> Deque
+
+-> Methods of collections interface
+-> The Collection interface includes various methods that can be used to perform different operations on objects.
+ These methods are available in all its subinterfaces.
+ methos -> add() , size(), remove(), iterator(), addAll(), removeAll(), clear() 
+    -> above methods must be present  in all the subinterfaces of collection.
+
+
+=> Java List interfaces
+-> In Java the List interface is an ordered collection that allows us to store and accesss elements sequentially.
+-> List -> ArrayList, LikedList, Stack, Vector
+
+=> List Interface methods that is not present in Collection (parent interface of List)
+get() , set(), toArray(), contains()
+
+=> ArrayList methods
+sort(), clone(), ensureCapacity(), isEmpty(), indexOf()
+
+=> LinkedList as Queue & Deque
+-> addFirst() , addLast() , getFirst() , getLast() , removeFirst() , removeLast(), peek(), poll(), offer()
+    peek() -> returns the first element (head) of the linked list
+    poll() -> returns and remove the first elements from the linked List
+    offer() -> adds the specified element at the end of the linked list same as addLast()
+
+
+
+=> Vector is use sincronization in each operation by using locks, 
+    But it has performance issue due to locks on each operations.
+
+
+=> stack methods 
+-> push() , pop() , peek() , search() , empty()
+
+
+Java Queue Interface
+Queue / Deque -> ArrayDeque , LinkedList , PriorityQueue
+
+Java Set Interface
+Set -> EnumSet , HashSet , LinkedHashSet , TreeSet 

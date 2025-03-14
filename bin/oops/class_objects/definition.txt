@@ -1,0 +1,9 @@
+Classe => Template of Object
+Objects => Instance of Class
+
+
+pillers of OOPs
+1 => Encapsulation
+2 => Abstraction
+3 => Inharitance
+4 => Polymorphism

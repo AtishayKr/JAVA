@@ -1,0 +1,44 @@
+Abstraction => Delivering only essential information to the outer world while masking the background 
+details
+
+=> It is a design and programming method to separates the interface from the implementation.
+=> Real life e.g, various functionalities of Airpods but don't know the actual implementation/ working
+    => To drive a car, one only needs to know the driving process and not the mechanics of the car engine
+
+Abstraction in Collections
+1. E.g., Sort(), for example, is used to sort an array, a list, or a collection of items, and we know that if
+    we give a container to sort, it will sort it, but we don't know which sorting algorithm it uses to sort that 
+    container.
+
+
+Abstraction in calss
+=> Grouping data members and member fucntions into classes using access specifiers.
+=> A class can choose which data members are visible to the outside world and which are hidden.
+
+
+What is Anstract Class 
+=> An Abstract class in Java is a class that cannot be instantiated on its own and is designed to be subclass.
+    It can serve as a superclass for other classes that share a common structure or behaviour.
+=> An abstract class in Java delivers abstraction by serving as a template for its subclasses, allowing for the 
+    definition of a common interface without specifying the complete implementation details.
+=> It has come from the idea of Abstraction.
+
+
+design Strategy
+1. Abstraction divides code into two category: interface and implementation. So, when creating your component, 
+    keep the interface separate from the implementation so that if the underlying implementation changes, the 
+    interface stays the same.
+2. In this instace, any program that uses these interfaces would remain unaffected and would require recompilation
+    with the most recent implementation.
+3. Makes code modular and maintainable.
+
+
+
+diferace between Abstract class and interface
+1 -> can have both abstract and concrete methods             1-> can only contain abstract methods
+2 -> methods have any access modifier                        2 -> All methods are implicitly public
+3 -> class can inherit only one single class                 3 -> class can be inharitance multiple instance 
+    due to Java not supported multiple inheritance                at a time.
+4 -> can have fields and constants with any access           4 -> All fields are implicitly public, static, and 
+    modifie, and they can be non-static and non-final             final(constans)
+

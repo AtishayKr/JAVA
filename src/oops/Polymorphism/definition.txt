@@ -1,0 +1,18 @@
+Polymorphism => many Forms
+
+Types => 1. Compile Time Polymorphism and 2. Run Time Polymorphism
+
+Compile Time Polymorphism => 1. method Overloading / function Overloading and 2. operator Overloading / 
+
+function Overloading/method overloading=> MULTIPLE methodS sharing a name but differing in argument or argument Types
+
+Operator Overloading => Java does not support user-defined operator overloading but internally overloads certain
+operators (eg., + for String concatenation and integer addition)
+
+
+
+Run Time Overloading => 
+1. Function Overriding => Subclass can provide a specific implementation of a method that is already 
+    defined in its superclass
+2. Dynamic Method Dispatch [Upcastind] -> A superclass reference variable can refer to a subclass object and dynamic 
+    Dispatch is used to resolve the called method at runtime.

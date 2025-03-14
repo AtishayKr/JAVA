@@ -1,0 +1,13 @@
+Inheritance => Inheritance is a way to create class from existing class
+    drived class / child class inharits some attribute from parent class 
+    and also some attribute is not inharit if declared private in parent class
+
+Types of Inheritance
+1 => Single Inheritance => class A -> class B
+2 => Multilevel Inheritance => class A -> class B -> class C
+3 => Hierarchical Inheritance => class A -> class B, class C
+4 => Multiple Inheritance => class A, class B -> calss C => no supported in java directly
+5 => Hybrid Inheritance => more than one type of above Inheritance
+
+
+note there is no mode of inheritance in java inlike c++ (class child : private parent{})
