@@ -1,0 +1,73 @@
+Class diagrans are used to depict the system's static perspective. They are used in the design process to show 
+     the shared roles and responsibilities of the entitied that produce the behaviour of the system. 
+     Class diagrams are widely used in the modeling of object-oriented designs because this is the only UML diagram
+     that can be 
+
+    -> Popular notations in the class diagram   
+        -> Class notation 
+        -> Inerface, abstract class, and enumeration
+        -> Access modifiers
+
+
+Access modifiers
+( + ) => used for public
+( - ) => used for private
+( # ) => used for private
+
+Association => Association provides to communicate one object with another object, or one object provides services 
+    to another object. Association represents the relationship between classes.
+ -> The association can be divided into two categories:
+    -> Class association (Inheritance)
+    -> Object association: Simple Association, Composition & Aggregation
+
+=> Object Association
+    -> Simple -> The weakest connections between objects are made through simple association. It is achieved through
+        refrence, which one object can inherit from another. The following is an example of a simple association:
+    -> Aggergation -> Aggregation is like having a box where you can put things inside. The box is one object, 
+        and the things inside are other objects. We show this relationship by drawing a line with a diamond shape
+        at one end that points to the box.
+        -> This relationship is not very strong because:
+            -> The things inside the box are not actually part of the box itself.
+            -> The things inside can exist on their own, even if you take them out of the box.
+    -> Composition -> Composition is when a big thing is made up of smaller parts. THink of a chair as the big
+        thing . It's made up of smaller parts like arms, a seat, and legs. We show this by drawing a line with a
+        solid diamond shape at one end, pointingfrom the big thing to its parts.
+        -> This is a strong connection because:
+            -> The smaller parts become a part of the big thing.
+            -> The smaller parts can't be on their own without the big thing.
+
+
+=> Sequence diagram
+ -> A sequence diagram is a form of communication diagram that illustrates how different actors and objects interact
+    with each other or between themseleves. The diagram represets these interactions as a exchange of messages
+    between various entities and the type of exchange. Sequence diagram also demonstrate the sequence of events
+    that occur in a specific use case and the logic behind different operations and functions.
+ -> Elements:
+    -> Lifeline: In sequence diagram, we list everyting involved across the top. Each thing has a lifeline showing 
+        when it's active or not, shown as a dotted line hanging down from it. These lifelines stand for different
+        parts of a system, like objects or actors, and they don't cross each other.
+    -> Activation Bars: Activation bars show when as object is busy sending or getting messages. We make these
+        as straight up-and-down boxes on the object's lifeline.
+    -> Message
+        -> synchronous message: A synchronous message is when the sender sends a message and has to wait until 
+            it gets a repoly before it can do anythinf else. We show these messages with a solid line 
+            and a solid arrow tip.
+        -> Asynchronous message:  A asynchronous message is when the sender sends a message but doesn't
+            have to wait for an answer back. THe sender can keep on sending messages to others. We draw these
+            messages with a solid line that ends in an arrow that's not filled in.
+        -> A create message is used when a new thing is made during an interaction. This can happen because of 
+            a message or action. We show it like this. 
+        -> A destroy message is used when something is removed or ended during a series of events. This can happen
+            because of a messag eor action, and it means the end of its timeline.
+        -> lost message (does not found on reciver)
+        -> found mesage ( found new message but not send from sender)
+
+How to draw a Sequence diagram
+    -> Identify the Use-case
+    -> Identify the Actor and objects
+    -> Identify the order of Actions
+    -> Create the diagram
+        
+
+
+

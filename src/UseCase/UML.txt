@@ -1,0 +1,70 @@
+UML is composed of three main building blocks: things, relationship, and diagram. These three exist at the center
+of UML and play a key role in producing effective and easily understandable models.
+
+Class: The notation represents the attributes and methods of an object.
+
+ Person                      <- Name
+
+name: String                 <- Attribute
+birthDate: birthDate
+
++getName(): String           <- Operations / methods
++setName(name): void
++isBirthday: boolean
+
+
+=> Object 
+
+Person1:Person               <- name of object
+
+name=atishay                 <-properties of object
+birthDate=03SEP2002
+
+
+=>Interface -> THis notation represents the functionality without its implementation.
+Person                       <-Name of Interface 
+
+                            <- attribute (not present in Interface)
+
+getName()                   <- operation / methods without implementation
+setName()
+
+
+=> Use case: This notation describes the users' goals and possible interactions with the system. 
+or (features / funcnatlity)
+denoted by Oval ()
+
+=> Actor: This notation represents the entities interacting with the system.
+ o
+-|-
+ ^
+
+ Primary Actor ()
+ Secondary Actor (assists primary actor)
+
+ => Component: This notation represents a section of the system.
+ 
+ => Node: This notation is similar to the Component notaiton, with the difference 
+    being that the node notation refers to the physical aspect of a system, such as a server.
+
+ => Activity diagrams: These describe the various interactions 
+    performed by different components present in the system. (Jus like flowchart)
+
+ => Interaction diagram: These diagrams describe the message flow between the different components 
+    present in the system.
+
+
+=> Types of UML(Unified Modeling Language)
+  -> Structural and Behavioural diagrams
+
+  -> Most Commonly Used:
+    -> Class diagram
+    -> Use-case diagram
+    -> Sequence diagram
+    -> Activity diagram
+
+
+
+
+
+

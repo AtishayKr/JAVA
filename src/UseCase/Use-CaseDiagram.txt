@@ -1,0 +1,25 @@
+Use case diagram describes the specification of users and their possible interactions with the system.
+    These possible interations are called use cases.
+
+-> Componenets of a use-case diagram:
+    -> Actor: They interact with systems
+        -> Primary: responsible for initiating use case (left side)
+        -> Secondary: responsible for assisting the promary actors (right side)
+    -> UseCase: a single functionality
+    -> Package: group of different elements
+    -> Note: used to add additional information
+
+-> Relationships in Use-case diagrams
+    -> Association
+    -> Generalisation
+    -> Include - first usecase is dependant on second usecase (use dotted line and open arroy at the end)
+    -> Extends - (may or may not be dependant)
+
+
+=> Benefits of Use-case diagrams:
+    ->It shows what each  part of the system does and what it aims to achieve.
+    ->It makes it wasy to grasp what the system is supposed to do at  a basic level.
+    ->it outlines waht the system requires and its setting.
+    ->It describes how the system works from the viewpoint of someone using it.
+    ->It outlines what the system includes an its limits.
+
