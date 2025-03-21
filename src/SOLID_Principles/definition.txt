@@ -1,0 +1,54 @@
+keywords => 
+-> Redability
+-> Maintainability
+-> Extendability
+-> Reusability
+
+
+SOLID 
+S -> Single Responsibility Principle 
+    => A class should have one, and only one reason to change. 
+        This means that a class should only have one job or responisiblity.
+    => There is a place for everything and everything in its place.
+    => Find one reason to change and take everything else out of the class.
+    => Importance: Following SRP makes your code more modular, easier to understand, maintain, and exten.
+        It helps in isolating functionalities, making debugging and testing more straightforward.
+
+O -> Open-Close Principle
+    => An entity should be open for extension but close for modification. This means you should be able to add new
+        functionality without changing the existing code.
+    => Extend functionality by adding new code instead of changing existing code.
+    => Goal: Get to a point where you can never break the core of your system.
+    => Importance: OCP encourages a more stable and resilient codebase. It promotes the use of interfaces
+        and abstract classes to allow for behaviors to be extended without modifying existing code.
+    => Writing code structure in such a way new functionality can be added by adding new code not by modifying 
+        exixting code.
+
+L -> Liskov Substitution Principle
+    => ANy derived class should be able to substitute its parent class without the consumer knowing it.
+    => Every part of the code should get the expected result no matter what instance of a class you send to it,
+        given it implements the same interface.
+    => If a function takes a Base class as parameter then, this code should work for all the derived classes.
+    => LSP insures that the good application i.e., build using abstraction does not break.
+    => It states that the objects of a subclass should behave the same way as the objects of the superclass,
+        such that they are replaceable.
+    => Child class should be able to do what a parent class do.
+    => Goal: The goal of LSP is to ensure that a subclass can stand in for its superclass. This principle helps
+        in maintaining the correctness of the program when objects of a superclass are replaced with objects 
+        of a superclass
+
+I -> Interface Segregation Principle
+    => The Interface Segregation Principle(ISP) is a design principle that does not recommend having methods that 
+        an interface would not use and require.
+    => Therefore, it goes against having fat interface in classes and prefers having small interfaces with a 
+        group of methods, each serving a particular purpose.
+    => To comply with the interface Segregation Principle(ISP), It's important to design interfaces that are 
+        tailored to specific client needs instead of creating abroad, all-purpose interfaces.
+    => Do not build one pet interface make smaller and specific ones.
+
+D -> Dependency Inversion Principle
+    => Never depend on everything concrete, only depend on Abstraction.
+    => High level module should not depend on low level module. They should depend on Abstraction.
+    => Able to change an implementation easily without altering the high level code.
+    => By adhering to DIP, you can create systems that are resilient to change as modifications to concrete 
+        implementations do not affect high-level modules.
